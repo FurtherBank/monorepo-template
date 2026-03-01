@@ -35,14 +35,14 @@ npm workspaces automatically links all packages in `packages/` and `apps/` toget
 
 All scripts can be run from the root of the repository:
 
-| Script | Description |
-|---|---|
-| `npm run build` | Build all workspaces |
-| `npm run test` | Run tests across all workspaces |
-| `npm run lint` | Lint all TypeScript/JavaScript files |
-| `npm run lint:fix` | Auto-fix lint errors |
-| `npm run format` | Format all files with Prettier |
-| `npm run format:check` | Check formatting without writing |
+| Script                 | Description                          |
+| ---------------------- | ------------------------------------ |
+| `npm run build`        | Build all workspaces                 |
+| `npm run test`         | Run tests across all workspaces      |
+| `npm run lint`         | Lint all TypeScript/JavaScript files |
+| `npm run lint:fix`     | Auto-fix lint errors                 |
+| `npm run format`       | Format all files with Prettier       |
+| `npm run format:check` | Check formatting without writing     |
 
 To run a script for a specific workspace:
 
